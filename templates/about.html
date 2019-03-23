@@ -1,0 +1,13 @@
+<body textcolor='blue' bgcolor='fff111'>
+
+<h1>This information is related to our company </h1>
+
+<h1><a href="{% url 'home' %}">Click here to go back to homepage</a></h1>
+
+<form action="{% url 'count' %}">
+  <textarea name="fulltextarea" rows="10" cols="40"></textarea>
+  <br>
+  <input type="submit" value="Count!" >
+</form>
+
+</body>

@@ -1,0 +1,15 @@
+<body bgcolor="456546">
+
+
+<h1>wordcount</h1>
+welcome to  wordcount website
+<br>
+
+<form action="{% url 'count' %}">
+  <textarea name="fulltextarea" rows="10" cols="40"></textarea>
+  <br>
+  <input type="submit" value="Count!" >
+</form>
+<br>
+<a href="{% url 'about' %}">About Us</a>
+</body>
